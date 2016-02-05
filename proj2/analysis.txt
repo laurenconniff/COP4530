@@ -1,0 +1,11 @@
+Lauren Conniff	
+
+ While analyzing my reverse function, I believe my function is O(N) because there are multiple operations going on in this function. This function is reversing the nodes so n = the amount of nodes in the list that we want to reverse. 
+
+ The complexity of this function is:
+ T(n) 
+ = T(n - 1) + O(1) / T(n - 1) 
+ 
+ T(n) = n * O(1) + T(0) 
+ = n * O(1) + O(1)
+ = O(n)
