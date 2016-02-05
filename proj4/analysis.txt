@@ -1,0 +1,10 @@
+# Analysis.txt
+ # Lauren Conniff
+ # COP4530 Proj4
+
+ The worst-case time complexity of the private member function makeEmpty(BinaryNode* & t) 
+ of the binary expression tree is O(N). This is because the function must travel through 
+ the tree from each node, starting at the root. It then deletes each node while moving back 
+ up through the tree. Since it is passing through and then delete each seperate node, the 
+ function can be considered a O(N) because of the traveling and then this one operation of 
+ deletion of each. 
