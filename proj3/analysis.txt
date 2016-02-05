@@ -1,0 +1,12 @@
+# Lauren Conniff
+# COP 4530 Project 3
+# Time Complexity
+
+Time complexity of the clear() function of Stack
+
+To implement the stack I used a list for my data structure/container. 
+To create the clear() function of the stack, I used the List built-in function
+clear() to clear the object of the stack. This clear function of the 
+List class iterates through each item and then deletes them. Therefore
+the time complexity is O(N).
+
